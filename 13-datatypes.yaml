@@ -2,15 +2,15 @@
   connection: local
   hosts: local
   vars:
-    Course: "DevSecOps with AWS"
-    Duration: 120 
+    Course: "DevSecOps with AWS" #string
+    Duration: 120 #number
     Trainer: Sivakumar
-    Tools:
+    Tools: #list []
     - Linux
     - shell
     - ansible
-    IS_LIVE: True
-    Concepts:
+    IS_LIVE: True #boolean
+    Concepts: #map or dictionary or object,referred like {} 
       CI: Jenkins
       Scripting: "Ansible, Shell, Terraform, Python"
   tasks:
