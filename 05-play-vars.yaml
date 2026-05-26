@@ -3,9 +3,9 @@
   hosts: local
   vars:
     COURSE: DevSecOps with AWS #it is equal to course=DevSecOps with AWS, we shall refer $var or ${var}
-    Duration: 120 hr+
-    Trainer: Sivakumar
+    DURATION: 120 hr+
+    TRAINER: Sivakumar
   tasks:
     name: print course info
     ansible.builtin.debug:
-      msg: " I'm learning { COURSE } with duration of { Duration } and trainer is { Trainer } "
+      msg: " I'm learning { COURSE } with duration of { DURATION } and trainer is { TRAINER } "
