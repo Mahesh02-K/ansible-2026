@@ -1,8 +1,8 @@
 - name: Understand vars preference
   connection: local
   hosts: local
-  vars:
-    Greeting: "Good Morning!"
+  # vars:
+  #   Greeting: "Good Morning!"
 
   # vars_files:
   # - course.yaml
@@ -24,4 +24,5 @@
 # 2.task level
 # 3.from vars-file
 # 4.from vars_prompt
+# 5.from play-level
 
