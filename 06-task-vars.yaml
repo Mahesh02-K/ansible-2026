@@ -11,6 +11,7 @@
       msg: "I'm learning {{ Course }} with duration of {{ Duration }} and trainer is {{ Trainer }}"
 
   - name: Print course info again
-    Course: Fullstack python
+    vars: 
+      Course: Fullstack python
     ansible.builtin.debug:
       msg: "I'm learning {{ Course }} with the duration of {{ Duration }} and trainer is {{ Trainer }}"
