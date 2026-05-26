@@ -9,4 +9,4 @@
     loop:
     - nginx
     - zip
-    - Python3
+    - mysql
