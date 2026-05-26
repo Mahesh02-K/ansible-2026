@@ -1,7 +1,7 @@
 - name: play-1
   connection: local
   hosts: local
-  tasks:
+  tasks: #list of tasks from play-1
     - name: Task-1
       ansible.builtin.debug:
         msg: "Hello from play-1 and task-1"
@@ -13,7 +13,7 @@
 - name: play-2
   connection: local
   hosts: local
-  tasks: 
+  tasks: #list of tasks from play-2
   - name: Task-1
     ansible.builtin.debug:
       msg: "Hello from play-2 and task-1"
