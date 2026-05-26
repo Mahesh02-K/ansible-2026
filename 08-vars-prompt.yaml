@@ -9,7 +9,7 @@
   - name: PASS_WORD
     prompt: please enter your password
     private: true
-    confirm: true
+    confirm: true #used for password confirmation twice
 
   tasks:
   - name: print info
