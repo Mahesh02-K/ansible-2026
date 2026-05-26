@@ -1,7 +1,7 @@
 - name: task level variables
   connection: local
   hosts: local
-  vars:
+  vars: #play level
     Course: DevSecOps
     Duration: 120 hr+
     Trainer: Sivakumar
@@ -11,7 +11,7 @@
       msg: "I'm learning {{ Course }} with duration of {{ Duration }} and trainer is {{ Trainer }}"
 
   - name: Print course info again
-    vars: 
-      Course: Fullstack python
+    vars: #here it is task level variable(local access) and it overwrites the global accessible variable which is mentioned in play level
+      Course: Fullstack python 
     ansible.builtin.debug:
       msg: "I'm learning {{ Course }} with the duration of {{ Duration }} and trainer is {{ Trainer }}"
