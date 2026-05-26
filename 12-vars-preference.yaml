@@ -20,9 +20,10 @@
         msg: "{{ Greeting }}"
 
 # Preferences
-# 1.Commandline
+# 1.Commandline or args
 # 2.task level
-# 3.from vars-file
-# 4.from vars_prompt
-# 5.from play-level
+# 3.vars-file
+# 4.vars_prompt
+# 5.play-level
+# 6.inventory
 
