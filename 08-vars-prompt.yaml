@@ -9,6 +9,7 @@
   - name: PASS_WORD
     prompt: please enter your password
     private: true
+    confirm: true
 
   tasks:
   - name: print info
