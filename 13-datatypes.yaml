@@ -9,7 +9,7 @@
     - Linux
     - shell
     - ansible
-    IS_LIVE: True #boolean
+    IS_LIVE: true #boolean
     Concepts: #map or dictionary or object,referred like {} 
       CI: Jenkins
       Scripting: "Ansible, Shell, Terraform, Python"
