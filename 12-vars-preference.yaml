@@ -14,8 +14,12 @@
 
   tasks:
     - name: Greeting
-      vars:
-        Greeting: "Morning!"
+      # vars:
+      #   Greeting: "Morning!"
       ansible.builtin.debug:
         msg: "{{ Greeting }}"
+
+# Preferences
+# 1.Commandline
+# 2.task level
 
