@@ -1,4 +1,4 @@
-- name: shell vs command
+- name: shell vs command,
   hosts: frontend
   tasks:
   - name: redirect ls output to a file
