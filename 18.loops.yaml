@@ -1,0 +1,12 @@
+- name: Installing packages using loops
+  hosts: frontend
+  become: yes
+  tasks:
+  - name: install packages
+    ansible.builtin.package:
+     name: "{{ name }}"
+     state: present
+    loop:
+    - nginx
+    - zip
+    - Python
